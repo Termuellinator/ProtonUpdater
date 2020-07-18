@@ -44,7 +44,7 @@ InstallProtonGE() {
 }
 
 Wanttodelete() {
-    read -r -p "Do you want to delete intalled versions? <y/N> " prompt
+    read -r -p "Do you want to delete installed versions? <y/N> " prompt
         if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]; then
             DeleteProtonCheck
         else
